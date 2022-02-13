@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h1>Here is a list of all available puppies.</h1>
+    
+
+    {% if puppies %}
+    <ul>
+        {% for pup in puppies %}
+            <li>
+                {{ pup | capitalize }}
+            </li>
+        {% endfor %}
+        
+    </ul>
+    {% else %}
+            <div class="container-fluid">
+                No puppies found!
+            </div>
+    {% endif %}
+    
+</div>
+{% endblock %}
+
+<!-- {{ pup.id }}{{ pup.name | capitalize  }} -->

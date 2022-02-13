@@ -1,0 +1,7 @@
+
+__pycache__/
+migrations/
+*.sqlite
+Pipfile
+Pipfile.lock
+.DS_Store
