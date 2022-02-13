@@ -2,7 +2,7 @@
 
 # Setup
 
-I would suggest to make use of virtual environments to run the flask application. (I personally use [pipenv](https://pipenv-fork.readthedocs.io/en/latest/basics.html))
+I would suggest to make use of virtual environments to run any kind of application. (I personally use [pipenv](https://pipenv-fork.readthedocs.io/en/latest/basics.html))
 
 `requirements.txt` can be found at top level directory of the project folder.
 
@@ -44,7 +44,7 @@ Next, we initialize database using `flask db init`. This will initialize the dat
 
 Next, we migrate our models to database using `flask db migrate`. Finally, we use `flask db upgrade` to apply the changes.
 
-You can refer: https://flask-migrate.readthedocs.io/en/latest/#example for a further understanding.
+You can refer: https://flask-migrate.readthedocs.io/en/latest/#example for further understanding.
 
 
 # Running the Flask Application
@@ -58,4 +58,4 @@ Mac/Linux Users
 `python3 app.py`
 
 
-Congratulations! 🎉 Your Flask application is ready and running @ http://127.0.0.1:5000/
+> Congratulations! 🎉 Your Flask application is ready and running @ http://127.0.0.1:5000/
